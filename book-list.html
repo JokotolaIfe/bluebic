@@ -1,0 +1,557 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html"; charset="iso-8859-1" />
+		<title>Thank You</title>
+		<link rel="shortcut icon" type="image/x-icon" href="unfinished.jpg"/>
+		
+		
+				<script type="text/javascript">
+				 function showTime(){
+				var date = new Date();
+				var h = date.getHours(); // 0 - 23
+				var m = date.getMinutes(); // 0 - 59
+				var s = date.getSeconds(); // 0 - 59
+				var session = "AM";
+				
+				if(h == 0){
+					h = 12;
+				}
+				
+				if(h > 12){
+					h = h - 12;
+					session = "PM";
+				}
+				
+				h = (h < 10) ? "0" + h : h;
+				m = (m < 10) ? "0" + m : m;
+				s = (s < 10) ? "0" + s : s;
+				
+				var time = h + ":" + m + ":" + s + " " +  session;
+				document.getElementById("MyClockDisplay").innerText = time;
+				document.getElementById("MyClockDisplay").textContent = time;
+				
+				setTimeout(showTime, 1000);
+				
+			}
+
+						showTime();
+			   </script>
+	
+		<style>
+			body { width: 40%; margin: 0 auto; background-color: #Fff;}
+			.whole{position: relative; background-color: #F0F4FD; height: 900px; object-fit: cover; overflow: hidden; width: 100%; overflow-y: hidden; margin: 10px auto; }
+				
+				.hablfCircleRight{
+				 height:45px;
+				 width:45px;
+				 border-radius: 25px;
+				 left: 9.87%;
+					right: 85%;
+					top: 7.95%;
+					bottom: 83.37%;
+				 background: linear-gradient(147.47deg, #FEB665 24.48%, #F66EB4 118.65%);
+						}
+						
+						
+			  .img{
+				 height:180px;
+				 width:190px;
+				 position: absolute;
+				 top: 5%;
+				 right: 35%;
+						}
+
+			.circle1 {
+				 position: relative;
+				margin-left: -100px;
+				top: -40%;
+				height:470px;
+				 width:470px;
+				 left: 1%;
+				bottom: -4.69%;
+				 border-radius: 375px;
+				
+				background: linear-gradient(315deg, rgba(255, 255, 255, 0.61) 3.5%, rgba(121, 171, 252, 0.61) 93.61%, rgba(96, 108, 255, 0.61) 147.83%);
+						}
+			
+						
+			.circle2{
+				 position: absolute;
+				width: 1500px;
+				height: 1500px;
+				right: -90%;
+				top: -143%;
+				border-radius: 1500px;
+				background: linear-gradient(187.47deg, #FEB665 184.48%, #F66EB4 1298.65%);
+						}
+
+			
+			.image {
+			position: absolute;
+			width: 91px;
+			height: 91px;
+			right: 42%;
+			top: 13%;
+			bottom: 80%:
+			border-radius: 3px;
+				}
+				
+				
+				.l1{
+					position: absolute;
+					width: 10px;
+					height: 10px;
+					left: 30%;
+					bottom: 18%;
+					border-radius: 15px;
+					background: #E8D5D5;
+					}
+				.a1{
+					position: absolute;
+					width: 40px;
+					height: 10px;
+					left: 22%;
+					bottom: 18%;
+					border-radius: 15px;
+					background:#8EF15C;;
+					}
+					
+				.o1{
+					position: absolute;
+					width: 10px;
+					height: 10px;
+					left: 19%;
+					bottom: 18%;
+					border-radius: 15px;
+					background: #E8D5D5;
+						}
+						
+				.image1{
+					position: absolute;
+					width: 40px;
+					height: 40px;
+					right: 26%;
+					bottom: 16%;
+					border-radius: 15px;
+						}
+						
+				.txt{
+					position: absolute;
+					left: 37%;
+					top: 11%;
+					text-align: center;
+					Font-family: Circular Std;
+					font-size: 28px;
+					line-height: normal;
+					text-align: center;
+					color: #FFFFFF;
+						}
+						
+					.txt1{
+					position: absolute;
+					right: 26%;
+					bottom: 61%;
+					font-family: Circular Std;
+					font-size: 14px;
+					line-height: 22px;
+					text-align: center;
+					color: rgba(56, 79, 125, 0.8);
+					text-align: center;
+						}
+					
+					.txt2{					
+					position: absolute;
+					right: 30%;
+					top: 92%;
+					font-family: Circular Std;
+					font-size: 16px;
+					line-height: normal;
+					text-align: center;
+					text-decoration-line: none;
+					color: #445984;
+					padding-bottom: 80px; 
+					margin-bottom: 80px;
+						}
+						
+				.m2 {
+								background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
+								border-top: 2px solid transparent;
+								border-right: 2px solid transparent;
+								border-left: 2px solid transparent;
+								border-bottom: 2px solid transparent;
+								border-radius: 6px;
+								text-align: center;
+								box-shadow: 1px 10px 10px rgba(68, 89, 132, 0.3);
+								color: white;
+								height: 55px;
+								width: 350px;
+								position: absolute;
+								margin-top: 10px;
+								font-family: Circular Std;
+									font-size: 12px;
+									line-height: normal;
+									letter-spacing: 1px;
+									text-transform: uppercase;
+									top: 80%;
+									right: 18%;
+							}
+							
+							.m2:hover {
+								background: white;
+								border-top: 2px solid #00D23A;
+								border-right: 2px solid #00D23A;
+								border-left: 2px solid #00D23A;
+								border-bottom: 2px solid #00D23A;
+								border-radius: 6px;
+								text-align: center;
+								box-shadow: 1px 10px 10px rgba(68, 89, 132, 0.3);
+								color: #00D23A;
+								height: 55px;
+								width: 350px;
+								position: absolute;
+								margin-top: 10px;
+								font-family: Circular Std;
+									font-size: 12px;
+									line-height: normal;
+									letter-spacing: 1px;
+									text-transform: uppercase;
+							}
+							
+							.new{
+								font-family: Circular Std;
+								position: absolute;
+								font-size: 12px;
+								line-height: normal;
+								text-align: center;
+								letter-spacing: 1px;
+								text-transform: uppercase;
+								bottom: 40%;
+								right: 30%;
+								color: rgba(56, 79, 125, 0.8);
+								}
+								
+								
+								.row {
+								top: 60%;
+								width: 100%;
+								height: 230px;
+								position: absolute;
+								background-color: transparent;
+								border-color: transparent;
+								}
+								
+								.td1 {
+								width: 25%;
+								height:200px;
+								padding: 5px 5px;
+								}
+								
+								.td2 {
+								width: 25%;
+								height:200px;
+								padding: 5px 5px;
+								}
+								
+								.td3 {
+								width: 25%;
+								height:200px;
+								padding: 5px 5px;
+								}
+								
+								.mag {
+								width: 100%;
+								height: 200px;
+								border-radius: 10px;
+								padding-top: 30px;
+								}
+								
+								.footer {
+								bottom: -5%;
+								position: absolute;
+								align: center;
+								background-color: white;
+								padding-top: -50px;
+								}
+								
+								.snippets {
+								height: 40px;
+								width: 40px;
+								space-between: 80PX;								padding: 10px 45px 30px 45px;
+								}
+								.snippets:hover {
+								height: 42px;
+								width: 42px;
+								space-between: 80PX;								padding: 10px 45px 30px 45px;
+								}
+								
+								.hr {
+								position: absolute;
+								height: 8px;
+								bottom: 10px;
+								width: 100px;
+								border-color: transparent;
+								background: rgba(56, 79, 125, 0.1);
+								border-radius: 100px;
+								right: 40%;
+								bottom: -15%
+								}
+								
+								.li {
+								text-decoration: none;
+								decoration-line: none;
+								underline: none;
+								}
+								
+								
+								.tt {
+								position: absolute;
+								right: 30%;
+								top: 2%;
+								font-family: Circular Std;
+								font-size: 16px;
+								line-height: normal;
+								text-align: left;
+								color: #445984;
+								}
+								
+								.clock {
+								position: absolute;
+								top: 4.5%;
+								left: 18%;
+								transform: translateX(-50%) translateY(-50%);
+								font-family: Roboto;
+								font-style: normal;
+								font-weight: 500;
+								font-size: 20px;
+								line-height: normal;
+								text-align: center;
+								color: #FFFFFF;
+								
+								}
+								
+								.icons {
+								position: absolute;
+								top: 3.5%;
+								right: 10%;
+								height: 20px;
+								line-height: normal;
+								text-align: center;
+								color: #FFFFFF;
+								}
+								.searchContainer {
+								  display: inline-flex;
+								  flex: 1 1 300px;
+								  position: absolute;
+								  border: 1px solid #fff;
+								  border-radius: 5px;
+								  overflow: hidden;
+								  top: 18%;
+								  right: 18%;
+								  height: 40px;
+								  width: 350px;
+								  box-shadow: 1px 5px 5px rgba(68, 89, 132, 0.3);
+								}
+								
+								.searchContainer:HOVER {
+								  display: inline-flex;
+								  flex: 1 1 300px;
+								  position: absolute;
+								  border: 1px solid GREEN;
+								  border-radius: 5px;
+								  overflow: hidden;
+								  top: 18%;
+								  right: 18%;
+								  height: 40px;
+								  width: 350px;
+								  box-shadow: 1px 5px 5px GREEN;
+								}
+
+								.searchIcon {
+								  padding: 0.5rem;
+								}
+
+								.searchBox {
+								  border: 0;
+								  border-color: white;
+								  padding: 0.5rem 0.5rem 0.5rem 0;
+								  flex: 1;
+								}
+
+								.searchButton {
+								  background: white;
+								  border: 0;
+								  color: white;
+								  padding: 0.5rem;
+								  border-radius: 0;
+								}
+								
+								.buks {
+								font-family: Circular Std;
+								font-size: 14px;
+								line-height: normal;
+								letter-spacing: 1px;
+								text-transform: uppercase;
+								position: absolute;
+								color: rgba(56, 79, 125, 0.8);
+								top: 26%;
+								right: 44.5%;
+								}
+								
+								.txtbox {
+								top: 30%;
+								right: 18%;
+								width: 350px;
+								height: 150px;
+								background-color: white;
+								position: absolute;
+								border-radius: 10px;
+								border-left: 20px white;
+								overflow:hidden;
+								box-shadow: 1px 5px 5px rgba(68, 89, 132, 0.3);
+								}
+								
+								.txtbox:HOVER {
+								box-shadow: 1px 5px 5px GREEN;
+								}
+								
+								.txtbox2 {
+								top: 50%;
+								right: 18%;
+								width: 350px;
+								height: 150px;
+								background-color: white;
+								position: absolute;
+								border-radius: 10px;
+								border-left: 20px white;
+								overflow:hidden;
+								box-shadow: 1px 5px 5px rgba(68, 89, 132, 0.3);
+								}
+								
+								.txtbox2:HOVER {
+								box-shadow: 1px 5px 5px GREEN;
+								}
+								
+								
+								.txtbox3 {
+								top: 70%;
+								right: 18%;
+								width: 350px;
+								height: 150px;
+								background-color: white;
+								position: absolute;
+								border-radius: 10px;
+								border-left: 20px white;
+								overflow:hidden;
+								box-shadow: 1px 5px 5px rgba(68, 89, 132, 0.3);
+								}
+								
+								.txtbox3:HOVER {
+								box-shadow: 1px 5px 5px GREEN;
+								}
+								
+								
+								.xxx {
+								width: 100px;
+								height: 130px;
+								background-color: white;
+								margin: 10px 10px auto;
+								}
+								
+								.mmm {
+								width: 15px;
+								height: 15px;
+								margin: 3px 3px auto;
+								padding-bottom: 10px;
+								}
+								
+								.rmt {
+								font-family: Circular Std;
+								font-size: 18px;
+								line-height: normal;
+								color: #384F7D;
+								position: absolute;
+								margin: 10px 10px auto;
+								}
+								
+								.rms {
+								font-family: Circular Std;
+								font-size: 14px;
+								line-height: normal;
+								color: #384F7D;
+								margin: 10px 10px auto;
+								position: absolute;
+								top: 30%;
+								}
+		</style>
+								
+	</head>
+
+
+	<body onload="showTime()">
+	
+	<div class="whole">
+	<div class="circle2" align="right">
+		</div>
+
+		<span id="MyClockDisplay" class="clock"></span>    	<span id="MyClockDisplay" class="clock"></span>   
+
+
+		<img src="icons.png" class="icons">
+		
+		
+		<div class="txt"> <b>
+		My Book List </b> </div> 
+		
+					<div class="searchContainer">
+			  <i class="fa fa-search searchIcon"></i>
+			  <input class="searchBox" type="search" name="search" placeholder="&nbsp &nbsp &nbsp Search...">
+			  <input type="submit" value="Search" class="searchButton">
+					</div>
+					
+					<div class="buks">
+					<b>BOOKS REVIEWED BY YOU</b>
+					</div>
+					
+					<div class="txtbox">
+					<img src="remote.png" class="xxx">
+					<span class="rmt"> Remote: Office Not Required </span> <br\>
+					<span class="rms"> Jason Fried </span> <br\>
+					&nbsp&nbsp<img src="stary.png" class="mmm"> <img src="stary.png" class="mmm"> <img src="stary.png" class="mmm"> <img src="stary.png" class="mmm"> <img src="star.png" class="mmm"> 
+					</div>
+					
+					<div class="txtbox2">
+					<img src="papillon.png" class="xxx">
+					<span class="rmt"> Papillon</span> <br\>
+					<span class="rms"> Henri Charriere </span> <br\>
+					&nbsp&nbsp<img src="stary.png" class="mmm"> <img src="stary.png" class="mmm"> <img src="stary.png" class="mmm"> <img src="stary.png" class="mmm"> <img src="star.png" class="mmm"> 
+					</div>
+					
+					<div class="txtbox3">
+					<img src="pttera.png" class="xxx">
+					<span class="rmt"> The Dark Tower:  <br\>The Gunslinger</span>
+					<span class="rms"> Henri Charriere </span> <br\>
+					&nbsp&nbsp<img src="stary.png" class="mmm"> <img src="stary.png" class="mmm"> <img src="stary.png" class="mmm"> <img src="stary.png" class="mmm"> <img src="star.png" class="mmm"> 
+					</div>
+					
+					<a href="thank-you.html"> <button type="submit" action="mailto:jaywebs0@gmail.com" value="SIGN UP" title="Register" class="m2"> SIGN UP </button> </a>
+		
+<a href="thank-you.html"> <button type="submit" action="mailto:jaywebs0@gmail.com" value="SIGN UP" title="Register" class="m2"> ADD BOOK REVIEW </button> </a>
+		
+
+					
+					<div class="footer">
+					<p align="center">
+					<a href="home.html" class="li"> <img src="home.png"    			class="snippets"> </a>
+					<a href="books.html" class="li"> <img src="books.png"    		class="snippets"> </a>
+					<a href="review.html" class="li"> <img src="review.png"   		class="snippets"> </a>
+					<a href="notifications.html" class="li"> <img src="notifications.png"    class="snippets"> </a>&nbsp
+					
+					<hr class="hr" align="centre"\>
+					</p>
+					</div>
+		</div>
+	</body>
+</html>
+
